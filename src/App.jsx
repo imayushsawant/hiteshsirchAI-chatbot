@@ -200,7 +200,7 @@ function App() {
         ];
 
         const stream = await clientRef.current.chat.completions.create({
-          model: "llama-3.3-70b-versatile",
+          model: "gemini-2.5-flash",
           messages: apiMessages,
           stream: true,
         });
