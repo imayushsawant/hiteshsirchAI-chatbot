@@ -48,7 +48,7 @@ function createGroqClient() {
   }
   return new OpenAI({
     apiKey: API_KEY,
-    baseURL: "https://api.groq.com/openai/v1",
+    baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/",
     dangerouslyAllowBrowser: true,
   });
 }
